@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+    .wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid-container {
+        width: 250px;
+        height: 500px;
+    }
+
+    .next {
+        width: 100px;
+        height: 100px;
+    }
+
+    h2.title {
+        font-size: 1.5rem;
+    }
+
+    .panelbtn {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    #rotatebtn img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-container {
+        width: 200px;
+        height: 400px;
+    }
+
+    .next {
+        width: 80px;
+        height: 80px;
+    }
+
+    h2.title {
+        font-size: 1.2rem;
+    }
+
+    button {
+        padding: 8px;
+        font-size: 0.8rem;
+    }
+}
